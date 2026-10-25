@@ -1,0 +1,15 @@
+{
+  "name": "academy-os-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Academy OS 발송 서버: 알림톡(SOLAPI) 발송 + MessageLog(SQLite) + 앱 정적 파일 제공",
+  "main": "index.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "solapi": "^5.5.0"
+  }
+}

@@ -1,0 +1,939 @@
+{
+  "_note": "출처: 중1_영어_레벨테스트지.docx + 정답해설.docx (2026-10-23). 문항 본문은 저장하지 않고 번호·정답(서술형·영작은 모범 답안 model)·역량 태그·오답 선지 해석만 둔다. skills=그 문항을 맞히려면 필요한 역량, d=오답 선지를 골랐을 때 드러나는 결손 역량(없으면 skills 전체를 근거로 사용), passage=지문에 쓰인 구문 역량(독해 문항의 간접 근거, 가중치 0.5).",
+  "form": {
+    "id": "MS1-2026-10",
+    "grade": "중1",
+    "version": 3,
+    "totalItems": 44,
+    "totalPoints": 100,
+    "minutes": 60
+  },
+  "kind": {
+    "mc": "객관식(선택한 번호 입력)",
+    "short": "서술형(받은 점수 + 오류 유형 입력)",
+    "write": "영작(받은 점수 + 오류 유형 입력)"
+  },
+  "skillCatalog": {
+    "GR-BE-PAST": [
+      "과거 be동사 (was/were)",
+      "문법"
+    ],
+    "GR-AGREE-SUBJ": [
+      "주어-동사 수일치 (A and B, 불규칙 복수)",
+      "문법"
+    ],
+    "GR-BE-FORM": [
+      "be동사 부정문·의문문 형태",
+      "문법"
+    ],
+    "GR-DO-BASEFORM": [
+      "do/does/did 뒤 동사원형",
+      "문법"
+    ],
+    "GR-3SG-S": [
+      "3인칭 단수 현재 -s/-es",
+      "문법"
+    ],
+    "GR-PROG": [
+      "현재진행형 (be + -ing)",
+      "문법"
+    ],
+    "GR-ING-SPELL": [
+      "-ing 만드는 철자 규칙",
+      "문법"
+    ],
+    "GR-FUTURE": [
+      "미래 표현 (will / be going to)",
+      "문법"
+    ],
+    "GR-QUESTION-FORM": [
+      "의문문 어순 바꾸기",
+      "문법"
+    ],
+    "GR-MODAL-MEANING": [
+      "조동사의 의미 구분 (must not / don't have to / may)",
+      "문법"
+    ],
+    "GR-MODAL-FORM": [
+      "조동사 뒤 형태 (조동사 + 동사원형)",
+      "문법"
+    ],
+    "GR-NOUN-PLURAL": [
+      "명사 복수형 규칙",
+      "문법"
+    ],
+    "GR-ARTICLE": [
+      "관사 (a/an/the)",
+      "문법"
+    ],
+    "GR-THERE-BE": [
+      "There is/are 수·시제 일치",
+      "문법"
+    ],
+    "GR-PRONOUN-POSS": [
+      "소유격·소유대명사 구분",
+      "문법"
+    ],
+    "GR-SENSE-VERB": [
+      "감각동사 + 형용사",
+      "문법"
+    ],
+    "GR-COMPARATIVE": [
+      "비교급 (불규칙 포함)",
+      "문법"
+    ],
+    "GR-SUPERLATIVE": [
+      "최상급",
+      "문법"
+    ],
+    "GR-COMPARISON-AS": [
+      "as ~ as 원급 비교",
+      "문법"
+    ],
+    "GR-WH-QUESTION": [
+      "의문사 선택",
+      "문법"
+    ],
+    "GR-TAG-QUESTION": [
+      "부가의문문",
+      "문법"
+    ],
+    "GR-EXCLAMATION": [
+      "감탄문 (What / How)",
+      "문법"
+    ],
+    "GR-SENT-4TO3": [
+      "4형식→3형식 전치사 (to/for/of)",
+      "문법"
+    ],
+    "GR-SENT-5FORM": [
+      "5형식 동사 (지각·사역·tell/ask 계열)",
+      "문법"
+    ],
+    "GR-TO-INF-NOUN": [
+      "to부정사/동명사를 목적어로 취하는 동사",
+      "문법"
+    ],
+    "GR-GERUND": [
+      "동명사",
+      "문법"
+    ],
+    "GR-TO-INF-USAGE": [
+      "to부정사 세 가지 용법",
+      "문법"
+    ],
+    "GR-IT-TO": [
+      "가주어 it - 진주어 to부정사",
+      "문법"
+    ],
+    "GR-PREP-TIME": [
+      "시간 전치사 (in/on/at)",
+      "문법"
+    ],
+    "GR-COND-PRESENT": [
+      "조건절 현재시제",
+      "문법"
+    ],
+    "GR-PRESENT-PERFECT": [
+      "현재완료",
+      "문법"
+    ],
+    "GR-PASSIVE": [
+      "수동태",
+      "문법"
+    ],
+    "RD-MAIN-IDEA": [
+      "글의 제목·주제 파악",
+      "독해"
+    ],
+    "RD-DETAIL-CHECK": [
+      "세부 내용 대조 (숫자·주체)",
+      "독해"
+    ],
+    "RD-NEGATION": [
+      "'일치하지 않는 것' 등 부정 조건 문제",
+      "독해"
+    ],
+    "RD-CAUSE": [
+      "이유·인과 파악",
+      "독해"
+    ],
+    "RD-CONNECTIVE": [
+      "연결어 (빈칸 앞뒤 관계)",
+      "독해"
+    ],
+    "RD-REFERENCE": [
+      "대명사가 가리키는 대상",
+      "독해"
+    ],
+    "RD-SENTENCE-ORDER": [
+      "문장 삽입·글의 흐름",
+      "독해"
+    ],
+    "RD-SUMMARY": [
+      "요약문 완성",
+      "독해"
+    ],
+    "RD-SYNTAX": [
+      "긴 문장 구조 해석 (관계사·가정 등)",
+      "독해"
+    ],
+    "VOC-MEAN": [
+      "단어 뜻",
+      "단어"
+    ],
+    "VOC-CONFUSE": [
+      "철자 비슷한 단어 혼동",
+      "단어"
+    ],
+    "VOC-CONNECTIVE": [
+      "연결어 어휘",
+      "단어"
+    ],
+    "VOC-REPLACE-MATCH": [
+      "본문 핵심 어휘 찾기 (replace/match)",
+      "단어"
+    ],
+    "WR-VERBFORM": [
+      "쓰기: 동사 형태",
+      "영작"
+    ],
+    "WR-CASE": [
+      "쓰기: 대명사 격",
+      "영작"
+    ],
+    "WR-SPELL": [
+      "쓰기: 철자",
+      "영작"
+    ],
+    "WR-FORMAT": [
+      "쓰기: 대소문자·마침표",
+      "영작"
+    ],
+    "WR-CONDITION": [
+      "쓰기: 조건(지정 단어·단어 수) 지키기",
+      "영작"
+    ],
+    "WR-ARTICLE": [
+      "쓰기: 관사",
+      "영작"
+    ],
+    "WR-EXPRESS": [
+      "우리말로 쓰는 서술(핵심 요소 포함)",
+      "독해"
+    ]
+  },
+  "passages": {
+    "P1": {
+      "items": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "skills": [
+        "GR-PASSIVE",
+        "RD-SYNTAX"
+      ],
+      "note": "it is called / eggs are laid (수동태), If a parent fell... (가정)"
+    },
+    "P2": {
+      "items": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "skills": [
+        "GR-PRESENT-PERFECT",
+        "GR-PASSIVE",
+        "RD-SYNTAX"
+      ],
+      "note": "Have you ever bought / named after / who was poor (관계대명사)"
+    }
+  },
+  "items": [
+    {
+      "no": 1,
+      "area": "문법",
+      "unit": "be동사·일반동사",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 5,
+      "skills": [
+        "GR-BE-PAST",
+        "GR-AGREE-SUBJ"
+      ],
+      "d": {
+        "1": [
+          "GR-BE-PAST"
+        ],
+        "2": [
+          "GR-BE-PAST"
+        ],
+        "3": [
+          "GR-BE-PAST"
+        ],
+        "4": [
+          "GR-AGREE-SUBJ"
+        ]
+      }
+    },
+    {
+      "no": 2,
+      "area": "문법",
+      "unit": "be동사·일반동사",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "GR-AGREE-SUBJ",
+        "GR-BE-FORM"
+      ]
+    },
+    {
+      "no": 3,
+      "area": "문법",
+      "unit": "be동사·일반동사",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 4,
+      "skills": [
+        "GR-DO-BASEFORM",
+        "GR-3SG-S"
+      ],
+      "d": {
+        "1": [
+          "GR-DO-BASEFORM"
+        ],
+        "2": [
+          "GR-3SG-S"
+        ],
+        "3": [
+          "GR-DO-BASEFORM"
+        ],
+        "5": [
+          "GR-DO-BASEFORM"
+        ]
+      }
+    },
+    {
+      "no": 4,
+      "area": "문법",
+      "unit": "현재진행·미래",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "GR-PROG",
+        "GR-AGREE-SUBJ"
+      ],
+      "d": {
+        "1": [
+          "GR-PROG"
+        ],
+        "2": [
+          "GR-PROG"
+        ],
+        "4": [
+          "GR-AGREE-SUBJ"
+        ],
+        "5": [
+          "GR-PROG"
+        ]
+      }
+    },
+    {
+      "no": 5,
+      "area": "문법",
+      "unit": "현재진행·미래",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "GR-ING-SPELL"
+      ]
+    },
+    {
+      "no": 6,
+      "area": "문법",
+      "unit": "현재진행·미래",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 4,
+      "skills": [
+        "GR-FUTURE"
+      ]
+    },
+    {
+      "no": 7,
+      "area": "문법",
+      "unit": "현재진행·미래",
+      "pts": 2,
+      "kind": "short",
+      "skills": [
+        "GR-FUTURE",
+        "GR-QUESTION-FORM"
+      ],
+      "err": {
+        "GR-QUESTION-FORM": "be동사를 주어 앞으로 보내지 못함 (Does he going to… 등 구조 오류)",
+        "WR-FORMAT": "대소문자·물음표 등 형식 오류"
+      },
+      "model": "Is he going to wear a T-shirt today?"
+    },
+    {
+      "no": 8,
+      "area": "문법",
+      "unit": "조동사",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "GR-MODAL-MEANING"
+      ]
+    },
+    {
+      "no": 9,
+      "area": "문법",
+      "unit": "조동사",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 4,
+      "skills": [
+        "GR-MODAL-MEANING"
+      ]
+    },
+    {
+      "no": 10,
+      "area": "문법",
+      "unit": "조동사",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "GR-MODAL-FORM"
+      ]
+    },
+    {
+      "no": 11,
+      "area": "문법",
+      "unit": "명사·관사·대명사·There is",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 4,
+      "skills": [
+        "GR-NOUN-PLURAL"
+      ]
+    },
+    {
+      "no": 12,
+      "area": "문법",
+      "unit": "명사·관사·대명사·There is",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 2,
+      "skills": [
+        "GR-ARTICLE"
+      ]
+    },
+    {
+      "no": 13,
+      "area": "문법",
+      "unit": "명사·관사·대명사·There is",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 4,
+      "skills": [
+        "GR-THERE-BE",
+        "GR-BE-PAST"
+      ],
+      "d": {
+        "1": [
+          "GR-THERE-BE"
+        ],
+        "2": [
+          "GR-BE-PAST"
+        ],
+        "3": [
+          "GR-THERE-BE"
+        ],
+        "5": [
+          "GR-QUESTION-FORM"
+        ]
+      }
+    },
+    {
+      "no": 14,
+      "area": "문법",
+      "unit": "명사·관사·대명사·There is",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "GR-PRONOUN-POSS"
+      ]
+    },
+    {
+      "no": 15,
+      "area": "문법",
+      "unit": "형용사·부사·비교",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 1,
+      "skills": [
+        "GR-SENSE-VERB"
+      ]
+    },
+    {
+      "no": 16,
+      "area": "문법",
+      "unit": "형용사·부사·비교",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 2,
+      "skills": [
+        "GR-COMPARATIVE"
+      ]
+    },
+    {
+      "no": 17,
+      "area": "문법",
+      "unit": "형용사·부사·비교",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "GR-SUPERLATIVE"
+      ]
+    },
+    {
+      "no": 18,
+      "area": "문법",
+      "unit": "형용사·부사·비교",
+      "pts": 2,
+      "kind": "short",
+      "skills": [
+        "GR-COMPARISON-AS"
+      ],
+      "err": {
+        "GR-COMPARISON-AS": "틀린 부분 또는 바른 표현 중 하나만 맞음"
+      },
+      "model": "taller → tall"
+    },
+    {
+      "no": 19,
+      "area": "문법",
+      "unit": "여러 가지 문장 종류",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 4,
+      "skills": [
+        "GR-WH-QUESTION"
+      ]
+    },
+    {
+      "no": 20,
+      "area": "문법",
+      "unit": "여러 가지 문장 종류",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 2,
+      "skills": [
+        "GR-TAG-QUESTION"
+      ]
+    },
+    {
+      "no": 21,
+      "area": "문법",
+      "unit": "여러 가지 문장 종류",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 2,
+      "skills": [
+        "GR-EXCLAMATION"
+      ]
+    },
+    {
+      "no": 22,
+      "area": "문법",
+      "unit": "문장의 형식",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 2,
+      "skills": [
+        "GR-SENT-4TO3"
+      ]
+    },
+    {
+      "no": 23,
+      "area": "문법",
+      "unit": "문장의 형식",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 2,
+      "skills": [
+        "GR-SENT-5FORM"
+      ]
+    },
+    {
+      "no": 24,
+      "area": "문법",
+      "unit": "to부정사·동명사",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "GR-TO-INF-NOUN"
+      ]
+    },
+    {
+      "no": 25,
+      "area": "문법",
+      "unit": "to부정사·동명사",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "GR-GERUND",
+        "GR-TO-INF-NOUN"
+      ]
+    },
+    {
+      "no": 26,
+      "area": "문법",
+      "unit": "to부정사·동명사",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "GR-TO-INF-USAGE"
+      ]
+    },
+    {
+      "no": 27,
+      "area": "문법",
+      "unit": "to부정사·동명사",
+      "pts": 2,
+      "kind": "short",
+      "skills": [
+        "GR-IT-TO",
+        "GR-TO-INF-USAGE"
+      ],
+      "err": {
+        "GR-IT-TO": "get up만 씀 (to 빠짐)",
+        "GR-TO-INF-NOUN": "getting up 등 틀린 형태"
+      },
+      "model": "to get up"
+    },
+    {
+      "no": 28,
+      "area": "문법",
+      "unit": "전치사·접속사",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 2,
+      "skills": [
+        "GR-PREP-TIME"
+      ]
+    },
+    {
+      "no": 29,
+      "area": "문법",
+      "unit": "전치사·접속사",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 2,
+      "skills": [
+        "GR-COND-PRESENT"
+      ],
+      "d": {
+        "1": [
+          "GR-3SG-S"
+        ],
+        "3": [
+          "GR-COND-PRESENT"
+        ],
+        "4": [
+          "GR-COND-PRESENT"
+        ],
+        "5": [
+          "GR-COND-PRESENT"
+        ]
+      }
+    },
+    {
+      "no": 30,
+      "area": "문법",
+      "unit": "현재완료·수동태(심화)",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 4,
+      "skills": [
+        "GR-PRESENT-PERFECT"
+      ]
+    },
+    {
+      "no": 31,
+      "area": "문법",
+      "unit": "현재완료·수동태(심화)",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 4,
+      "skills": [
+        "GR-PASSIVE"
+      ],
+      "d": {
+        "1": [
+          "GR-PASSIVE"
+        ],
+        "2": [
+          "GR-PASSIVE"
+        ],
+        "3": [
+          "GR-PASSIVE"
+        ],
+        "5": [
+          "GR-AGREE-SUBJ"
+        ]
+      }
+    },
+    {
+      "no": 32,
+      "area": "문법",
+      "unit": "현재완료·수동태(심화)",
+      "pts": 2,
+      "kind": "short",
+      "skills": [
+        "GR-PASSIVE",
+        "GR-AGREE-SUBJ"
+      ],
+      "err": {
+        "GR-AGREE-SUBJ": "is baked / was baked (수·시제 불일치)",
+        "GR-PASSIVE": "baked, are bake 등 수동태 형태 오류"
+      },
+      "model": "are baked"
+    },
+    {
+      "no": 33,
+      "area": "독해",
+      "unit": "독해 P1",
+      "pts": 3,
+      "kind": "mc",
+      "ans": 2,
+      "skills": [
+        "RD-MAIN-IDEA"
+      ],
+      "vocab": [
+        "survival"
+      ],
+      "passage": "P1"
+    },
+    {
+      "no": 34,
+      "area": "독해",
+      "unit": "독해 P1",
+      "pts": 3,
+      "kind": "mc",
+      "ans": 2,
+      "skills": [
+        "RD-DETAIL-CHECK"
+      ],
+      "vocab": [
+        "nap",
+        "last",
+        "steal"
+      ],
+      "passage": "P1"
+    },
+    {
+      "no": 35,
+      "area": "독해",
+      "unit": "독해 P1",
+      "pts": 3,
+      "kind": "short",
+      "skills": [
+        "RD-CAUSE",
+        "RD-SYNTAX",
+        "WR-EXPRESS"
+      ],
+      "vocab": [
+        "alert",
+        "nest",
+        "chick",
+        "danger"
+      ],
+      "passage": "P1",
+      "err": {
+        "RD-CAUSE": "핵심 요소 하나만 씀 — 한 부모가 둥지를 지킴 / 깊이 자면 새끼가 위험",
+        "RD-DETAIL-CHECK": "이유가 아니라 현상만 씀"
+      },
+      "model": "한 부모가 둥지를 늘 지켜야 하고, 깊이 자면 알·새끼가 도둑갈매기에게 위험해지기 때문"
+    },
+    {
+      "no": 36,
+      "area": "독해",
+      "unit": "독해 P1",
+      "pts": 3,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "RD-CONNECTIVE",
+        "VOC-CONNECTIVE"
+      ],
+      "passage": "P1"
+    },
+    {
+      "no": 37,
+      "area": "독해",
+      "unit": "독해 P2",
+      "pts": 3,
+      "kind": "mc",
+      "ans": 1,
+      "skills": [
+        "RD-MAIN-IDEA"
+      ],
+      "vocab": [
+        "replace"
+      ],
+      "passage": "P2"
+    },
+    {
+      "no": 38,
+      "area": "독해",
+      "unit": "독해 P2",
+      "pts": 3,
+      "kind": "mc",
+      "ans": 4,
+      "skills": [
+        "RD-DETAIL-CHECK",
+        "RD-NEGATION"
+      ],
+      "passage": "P2"
+    },
+    {
+      "no": 39,
+      "area": "독해",
+      "unit": "독해 P2",
+      "pts": 3,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "RD-REFERENCE",
+        "RD-SENTENCE-ORDER"
+      ],
+      "vocab": [
+        "shabby"
+      ],
+      "passage": "P2"
+    },
+    {
+      "no": 40,
+      "area": "독해",
+      "unit": "독해 P2",
+      "pts": 3,
+      "kind": "short",
+      "skills": [
+        "RD-SUMMARY",
+        "VOC-REPLACE-MATCH"
+      ],
+      "passage": "P2",
+      "err": {
+        "VOC-REPLACE-MATCH": "철자 오류 또는 한 칸만 맞음"
+      },
+      "model": "(A) replace (B) match"
+    },
+    {
+      "no": 41,
+      "area": "영작",
+      "unit": "영작",
+      "pts": 4,
+      "kind": "write",
+      "skills": [
+        "GR-SENT-5FORM",
+        "WR-CASE",
+        "WR-VERBFORM",
+        "WR-CONDITION"
+      ],
+      "err": {
+        "WR-CASE": "her 대신 she 등 대명사 격 오류 (I saw she open…)",
+        "WR-VERBFORM": "opened / to open 등 동사원형 오류·to 불필요",
+        "WR-SPELL": "철자 오류",
+        "WR-FORMAT": "대소문자·마침표 오류",
+        "WR-ARTICLE": "the door 누락",
+        "WR-CONDITION": "saw/open 미사용 또는 6단어 조건 불충족"
+      },
+      "model": "I saw her open the door."
+    },
+    {
+      "no": 42,
+      "area": "영작",
+      "unit": "영작",
+      "pts": 4,
+      "kind": "write",
+      "skills": [
+        "GR-MODAL-FORM",
+        "WR-VERBFORM",
+        "WR-CONDITION"
+      ],
+      "err": {
+        "WR-VERBFORM": "had better to go / going 등 had better 뒤 동사 형태",
+        "WR-ARTICLE": "the 누락 (go to hospital)",
+        "WR-SPELL": "철자 오류",
+        "WR-FORMAT": "대소문자·마침표 오류",
+        "WR-CONDITION": "had better 미사용, You'd better(7단어) 등 조건 불충족"
+      },
+      "model": "You had better go to the hospital now."
+    },
+    {
+      "no": 43,
+      "area": "단어",
+      "unit": "단어",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 3,
+      "skills": [
+        "VOC-MEAN",
+        "VOC-CONFUSE"
+      ],
+      "d": {
+        "1": [
+          "VOC-CONFUSE"
+        ],
+        "2": [
+          "VOC-CONFUSE"
+        ],
+        "4": [
+          "VOC-CONFUSE"
+        ],
+        "5": [
+          "VOC-CONFUSE"
+        ]
+      },
+      "vocab": [
+        "discover",
+        "discuss",
+        "describe",
+        "decide",
+        "destroy"
+      ]
+    },
+    {
+      "no": 44,
+      "area": "단어",
+      "unit": "단어",
+      "pts": 2,
+      "kind": "mc",
+      "ans": 5,
+      "skills": [
+        "VOC-MEAN"
+      ],
+      "vocab": [
+        "borrow",
+        "arrive",
+        "invite",
+        "explain",
+        "recycle"
+      ]
+    }
+  ]
+}

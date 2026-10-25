@@ -1,0 +1,26 @@
+{
+  "name": "academy-react",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Academy OS (SNP영어학원 운영 시스템) React 버전 — academy-os/app 을 React로 옮긴 것",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^25.0.1",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}

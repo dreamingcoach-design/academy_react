@@ -1,0 +1,7 @@
+node_modules/
+dist/
+server/node_modules/
+server/data/
+server/.env
+# 실제 학생 정보가 담긴 내보내기 파일
+academy-os-*.json
